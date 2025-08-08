@@ -1,0 +1,57 @@
+body {
+    border: 5px solid black;
+    margin: 0px;
+    padding: 1000;
+    margin-right: 30%;
+    margin-left: 30%;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+.container 
+{
+    background-color: lightblue;
+    padding: 20px;
+    
+}
+hr
+{
+    border: 6px solid rgb(147, 111, 111);
+    margin-top: -23PX;
+    width: 593PX;
+    margin-left: -24px;
+    background-color: aliceblue;
+}
+img{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    /* display: flex;
+    justify-content: space-evenly;     */
+}
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+p {
+    font-size: 20px;
+    color: darkgreen;
+
+    
+
+   
+}
+a {
+   
+    color: darkred;
+    font-size: 25px;
+    
+    display: inline-block;
+
+    
+    
+}
+button{
+    margin-left: 95%;
+    border-radius: 5px;
+}
