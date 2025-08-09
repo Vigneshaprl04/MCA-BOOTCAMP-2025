@@ -1,0 +1,139 @@
+body{
+    background-color: rgb(32, 122, 167);
+    box-shadow: 0px 4px 8px rgb(0, 0, 0);
+    padding: 20px;
+
+
+}
+.header{
+    background-color: rgb(129, 167, 186);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    position: relative;
+    height: 25px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+
+
+
+.container {
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px;
+   justify-content: space-evenly;
+   
+    
+}    
+img{
+    width: 80%;
+    height: 50%;
+    align-items: center;
+    margin: 25px;
+    display: flex;
+    justify-content: space-evenly;
+  
+    
+}  
+.img1{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 100%;
+    margin-top: -20px;
+     height: 500px;
+   font-size: small;
+   
+}
+.img2
+{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    width: 110%;
+    height: auto;
+    font-size: small;
+    width: 1080px;
+     height: 500px;
+    margin-top: -20px;
+    
+   
+    
+}
+.img3{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+     width: 90%;
+      height: 500px;
+    font-size:small;
+    margin-top: -20px;
+    
+}
+.img4{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: small;
+    width: 100%;
+    height: 500px;
+     margin-top: -20px;
+}
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: #ffffff;
+    margin-bottom: 10px;
+    margin-top: -19px;
+    font-size: 2.5em;
+    
+}
+h2{
+    
+    font-size: 1.9em;
+    color: #ff0303;
+    margin-bottom: 20px;
+    margin-top: -10px;
+    margin-left: 60px;
+}
+img:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s  ;
+    box-shadow: 0 4px 8px rgb(134, 1, 1);
+}
+p{
+    font-size: 1.2em;
+    color: #000000;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    margin-left: 6px;
+}
+p:hover{
+    color: #ffffff;
+    transition: color 0.3s;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 100px;
+    font-size: large;
+
+}
+ins{
+    color: #ffffff;
+}
+a:hover{
+    color: #ff0000;
+    transition: color 0.3s;
+}
+.header:hover{
+    background-color: rgb(0, 0, 0);
+    transition: background-color 0.3s;
+}
