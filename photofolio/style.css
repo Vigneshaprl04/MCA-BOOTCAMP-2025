@@ -1,0 +1,181 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #000000;
+  color: #ffffff;
+  
+
+  background-size: 90vh;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+
+}
+h1{
+  margin-left: -20px;
+  font-size: xxx-large;
+}
+
+nav a {
+  margin: 1rem;
+  color: #ddd;
+  text-decoration: none;
+ 
+  
+  font-size: x-large;
+}
+
+section {
+  padding: 0%;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  background-image: url('https://i.pinimg.com/736x/2a/3e/f1/2a3ef19eafa2e5fafb5b5523e0591da1.jpg');
+  background-size: cover;
+}
+
+.grid img 
+{
+  width: 25%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-left:37% ;
+  margin-bottom: 100px;
+  margin-top: 90px;
+
+
+}
+.grid :hover {
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+
+}
+
+.resume-box {
+  background: hwb(169 1% 84%);
+  
+  
+  
+ 
+  
+  padding: 1rem;
+  border: 5px solid #ccc;
+  border-radius: 8px;
+  max-width: 600px;
+  margin-top: 80px;
+  margin-left: 400px;
+  margin-bottom: 0px;
+  
+  
+}
+
+.resume-box p{
+color: #ffffff;
+margin-top: 30px;
+margin-bottom: 10px;
+height: 60px;
+font-size: larger;
+
+
+}
+
+.resume-box h3{
+  color: #ddd;
+  font-size: 18px;
+  
+
+  
+ 
+}
+#resume{
+  border: 2px solid rgb(255, 255, 255);
+  margin-right: 0px;
+  height: 4px;
+  background-color: #000000;
+ 
+}
+.midle{
+background-color: #6e0b0b;
+height: 90%; 
+margin-bottom:opx;
+background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOE6JhEbeKvbLN0zOhJltXASGPc7sLO-R9Fg&s');
+background-size: 95vh;
+}
+   
+
+#contact{
+  
+  margin-right: 0px;
+  height: 1px;
+  background-color: #000000;
+ 
+}
+
+.details{
+  color: #ccc;
+  background-image: url('');
+  padding: 8%;
+  margin-left: 25%;
+  margin-top: -3%;
+  
+}
+.details h2{
+  margin-left: -500px;
+}
+.details h3{
+  margin-top: 0px;
+  
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 400px;
+  margin-top: 90px;
+  margin-left: 500px;
+  margin-bottom: 50px
+  
+  
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #222;
+  color: white;
+  border: 3px solid whitesmoke;
+}
+p{
+  margin-right: 100px;
+}
+.fade-in {
+  animation: fade 0.8s ease-in-out;
+}
+
+@keyframes fade {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
